@@ -1,75 +1,95 @@
+# React User Management App with Reqres API
 
-# Getting Started with Create React App
+A responsive React application for user management that integrates with the Reqres mock API, featuring authentication, user listing with pagination, and CRUD operations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **User Authentication**
+  - Login with email/password
+  - token storage
+  - Protected routes
 
-In the project directory, you can run:
+- **User Management**
+  - List all users with pagination
+  - Search and filter users
+  - Edit user details
+  - Delete users
 
-### `npm start`
+- **Enhanced Functionality**
+  - Client-side state persistence for edits
+  - Responsive Material-UI design
+  - Form validation
+  - Error handling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live Demo](https://your-demo-link-here.com) (if deployed)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/reqres-user-management.git
+   cd reqres-user-management
 
-### `npm run build`
+   Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```bash
+   npm install
+   
+4. Start the development server:
+   ```bash
+    npm start
+ 
+6. Open your browser at:
+  ```bash
+   http://localhost:3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Usage
 
-### `npm run eject`
+Login Credentials
+Use these test credentials to log in:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Email: eve.holt@reqres.in
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Password: cityslicka
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Key Functionality
+Authentication
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Login with the provided credentials
 
-## Learn More
+Automatic redirection to user list after login
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Logout button in the navigation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+User List
 
-### Code Splitting
+Paginated display of users
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Search functionality
 
-### Analyzing the Bundle Size
+Responsive card layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+User Operations
 
-### Making a Progressive Web App
+Click "Edit" to modify user details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Click "Delete" to remove users
 
-### Advanced Configuration
+Changes persist locally (Reqres is a mock API)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Technical Details
+Technologies Used
+React
 
-### Deployment
+React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Material-UI (MUI)
 
-### `npm run build` fails to minify
+Axios for HTTP requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# reqres-user-management
-Technical Assignment
- c9afbc2cf180bdb2d29b3938187f5b18034e1711
+Context API for state management

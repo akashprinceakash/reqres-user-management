@@ -32,9 +32,6 @@ A responsive React application for user management that integrates with the Reqr
    git clone https://github.com/your-username/reqres-user-management.git
    cd reqres-user-management
 
-   Install dependencies:
-
-
 2. Install dependencies:
    ```bash
    npm install
@@ -66,7 +63,7 @@ Automatic redirection to user list after login
 
 Logout button in the navigation
 
-User List
+<b>User List</b>
 
 Paginated display of users
 

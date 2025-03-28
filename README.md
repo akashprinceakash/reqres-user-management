@@ -23,13 +23,13 @@ A responsive React application for user management that integrates with the Reqr
 
 ## Demo
 
-[Live Demo](https://your-demo-link-here.com) (if deployed)
+[Live Demo](https://your-demo-link-here.com)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/reqres-user-management.git
+   git clone https://github.com/akashprinceakash/reqres-user-management.git
    cd reqres-user-management
 
 2. Install dependencies:

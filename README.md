@@ -45,17 +45,17 @@ A responsive React application for user management that integrates with the Reqr
    http://localhost:3000
 ```
 
-Usage
+<b>Usage</b>
 
-Login Credentials
+<b>Login Credentials</b>
 Use these test credentials to log in:
 
 Email: eve.holt@reqres.in
 
 Password: cityslicka
 
-Key Functionality
-Authentication
+<b>Key Functionality</b>
+1.<b>Authentication</b>
 
 Login with the provided credentials
 
@@ -63,7 +63,7 @@ Automatic redirection to user list after login
 
 Logout button in the navigation
 
-<b>User List</b>
+2.<b>User List</b>
 
 Paginated display of users
 
@@ -71,7 +71,7 @@ Search functionality
 
 Responsive card layout
 
-User Operations
+3.<b>User Operations</b>
 
 Click "Edit" to modify user details
 
@@ -79,8 +79,8 @@ Click "Delete" to remove users
 
 Changes persist locally (Reqres is a mock API)
 
-Technical Details
-Technologies Used
+<b>Technical Details</b>
+<b>Technologies Used</b>
 React
 
 React Router
